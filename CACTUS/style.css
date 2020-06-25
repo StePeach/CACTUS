@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #373e47 url("images/bg.jpg") repeat;
+	font-family: Arial;
+	font-size: 12px;
+	color: #e4e4e4;
+	line-height: 18px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.75);
+}
+
+
+a {
+	color: #00e33d;
+	text-decoration: underline;
+}
+
+
+
+h1 {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+
+ul,ol,dl {
+	margin: 0 0 0 30px;
+}
+
+
+.row {
+	overflow: hidden;
+	margin: 10px 0;
+	padding: 3px 0;
+}
+
+.col {
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+table.bordered {
+	margin: 10px 0;
+	padding: 0;
+	width: 100%;
+	background-color: #373e47;
+	border-radius: 3px;
+	border-spacing: 0;
+}
+
+table.bordered th, table.bordered td {
+	padding: 5px;
+	vertical-align: top;
+	border-left: 1px solid #4c545e;
+}
+
+table.bordered td {
+	border-top: 1px solid #4c545e;
+}
+
+
+
+table.bordered th {
+	background-color: #292e35;
+	text-align: left;
+	font-weight: bold;
+	color: white;
+}
+
+table.bordered tbody tr:hover {
+	background-color: #2e333b;
+}
+
+
+
+
+.wrapper {
+	width: 980px;
+	padding: 0 10px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+	
+}
+
+.header {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.headerContent {
+	box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+	background-color: #f2f2f2;
+	height: 33px;
+	border-radius: 3px;
+
+	padding-top: 10px;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 24px;
+	text-shadow: 0 1px 0 white;
+	color: #373e47;
+	padding-left: 10px;
+}
+
+.logo a:hover {
+	color: #00e33d;
+}
+
+
+ul.nav {
+	margin: 0;
+	padding: 3px 0 0 0;
+	overflow: hidden;
+	float: right;
+}
+
+ul.nav li {
+	float: left;
+	list-style: none;
+	padding: 0;
+}
+
+ul.nav li a {
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	padding: 0 30px;
+	display: block;
+	color: #143567;
+	text-shadow: 0 1px 0 white;
+}
+
+ul.nav li a.active {
+	color: #00e33d;
+}
+
+ul.nav li a:hover {
+	color: #00e33d;
+}
+
+.content {
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid #67707d;
+	background-color: #475363;
+	background-color: rgba(87,103,127,0.5);
+}
+
+
+
+.leftCol {
+	float: right;
+	margin-left: 10px;
+	width: 220px;
+}
+
+
+.block {
+	margin: 0 0 20px 0;
+	background-color: #373e47;
+}
+
+.block>h3 {
+	padding: 8px 10px 0;
+}
+
+.block p {
+	margin: 0;
+	padding: 10px 10px 0;
+}
+
+.block a.more {
+	padding-bottom: 10px;
+	display: block;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.main img {
+	margin-right: 15px;
+	border: 10px solid #039129;
+}
+
+
+/*Подвал*/
+.footer {
+
+}
+
+.footer p {
+    margin-top: 15px;
+	text-align: center;
+}
